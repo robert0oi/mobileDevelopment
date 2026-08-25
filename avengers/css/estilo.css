@@ -14,7 +14,6 @@ body{
 .container{
     min-width: 400px;
     max-width: 1200px;
-
     background-color: gray;
     margin: 0 auto;
 }
@@ -27,13 +26,18 @@ a.logo{
     display: inline-block;
     width: 150px;
 }
+
 a.logo>img{
     width: 100%;
 }
 
+li{
+    list-style-type: none;
+}
+
 a:link,
 a:visited{
-    color:  #ebebeb;
+    color: #EBEBEB;
     text-decoration: none;
 }
 
@@ -44,6 +48,26 @@ a:visited{
     background-position: center;
 }
 
-ul{
-    list-style: none;
+h1{
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #333;
+    background-color: rgba(0,0,0.5);
+}
+
+figure{
+    width: 390px;
+    margin: 10px auto;
+}
+
+figure img{
+    width: 100%;
+}
+
+footer{
+    background-color: blanchedalmond;
+    padding: 30px 40px;
+}
+
+footer p{
+    color: #999;
 }
